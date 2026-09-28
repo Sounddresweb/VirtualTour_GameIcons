@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d4c58a8777a554f9643c64e852e28a, type: 3}
+  m_Name: Data_MarcusFenix
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  characterNameEN: Marcus Fenix
+  characterNameES: Marcus Fenix
+  portrait: {fileID: 0}
+  sceneName: Marcus Fenix
+  originEN: Marcus Fenix is a soldier of the Coalition of Ordered Governments (COG)
+    on the planet Sera and the main protagonist of the Gears of War series, first
+    released in 2006. A veteran of the Pendulum Wars, he is the son of scientist
+    Adam Fenix and a member of Delta Squad.
+  originES: "Marcus Fenix es un soldado de la Coalici\xF3n de Gobiernos Ordenados
+    (COG) en el planeta Sera y el protagonista principal de la saga Gears of War,
+    lanzada en 2006. Veterano de las Guerras del P\xE9ndulo, es hijo del cient\xEDfico
+    Adam Fenix y miembro del Escuadr\xF3n Delta."
+  historyEN: Marcus was imprisoned for leaving his post during the Battle of Aspho
+    Fields to try to save his father. When the Locust Horde emerges from underground
+    on Emergence Day, his old friend Dom Santiago frees him to help humanity fight
+    back. Over the trilogy he leads the war against the Locust and the Lambent, and
+    in later games he faces new threats alongside his family.
+  historyES: "Marcus fue encarcelado por abandonar su puesto durante la Batalla de
+    Aspho Fields para intentar salvar a su padre. Cuando la Horda Locust surge del
+    subsuelo en el D\xEDa de la Emergencia, su viejo amigo Dom Santiago lo libera
+    para ayudar a la humanidad a defenderse. A lo largo de la trilog\xEDa lidera
+    la guerra contra los Locust y los Lambent, y en juegos posteriores enfrenta nuevas
+    amenazas junto a su familia."
+  abilitiesEN: A veteran soldier with great physical strength, tactical skill and
+    leadership. He fights using cover, and his signature weapons are the Lancer assault
+    rifle, with its chainsaw bayonet, and the Gnasher shotgun. He also handles heavy
+    and support weapons such as the Hammer of Dawn.
+  abilitiesES: "Soldado veterano con gran fuerza f\xEDsica, habilidad t\xE1ctica
+    y liderazgo. Combate usando coberturas, y sus armas insignia son el rifle de
+    asalto Lancer, con su motosierra de bayoneta, y la escopeta Gnasher. Tambi\xE9n
+    maneja armas pesadas y de apoyo como el Martillo del Amanecer."
+  universeEN: The story takes place on Sera, a planet devastated by war. After the
+    Pendulum Wars, which were fought over the energy resource Imulsion, humanity
+    faces the Locust Horde, a subterranean enemy. The series later introduces the
+    Lambent and the Swarm, and follows a struggle for survival among the ruins of
+    human civilization.
+  universeES: "La historia transcurre en Sera, un planeta devastado por la guerra.
+    Tras las Guerras del P\xE9ndulo, libradas por el recurso energ\xE9tico Imulsi\xF3n,
+    la humanidad enfrenta a la Horda Locust, un enemigo subterr\xE1neo. La saga introduce
+    despu\xE9s a los Lambent y al Enjambre, y sigue una lucha por sobrevivir entre
+    las ruinas de la civilizaci\xF3n humana."
+  creatorsEN: Created by Epic Games, with Cliff Bleszinski as lead designer, and
+    published by Microsoft Game Studios for Xbox 360. Microsoft acquired the franchise
+    in 2014, and it has since been developed by The Coalition. Marcus Fenix is voiced
+    by John DiMaggio.
+  creatorsES: "Creado por Epic Games, con Cliff Bleszinski como dise\xF1ador principal,
+    y publicado por Microsoft Game Studios para Xbox 360. Microsoft adquiri\xF3 la
+    franquicia en 2014, y desde entonces la desarrolla The Coalition. Marcus Fenix
+    tiene la voz de John DiMaggio."
+  culturalImpactEN: Gears of War (2006) helped popularize the cover-based third-person
+    shooter and became one of the flagship franchises of the Xbox 360, showcasing
+    the power of Unreal Engine 3. Marcus Fenix became one of Xbox's most recognizable
+    characters, and the franchise expanded into novels, comics and spin-offs.
+  culturalImpactES: "Gears of War (2006) ayud\xF3 a popularizar el shooter en tercera
+    persona basado en coberturas y se convirti\xF3 en una de las franquicias insignia
+    de la Xbox 360, mostrando el potencial del Unreal Engine 3. Marcus Fenix pas\xF3
+    a ser uno de los personajes m\xE1s reconocibles de Xbox, y la franquicia se expandi\xF3
+    a novelas, c\xF3mics y spin-offs."

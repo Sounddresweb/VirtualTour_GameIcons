@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d4c58a8777a554f9643c64e852e28a, type: 3}
+  m_Name: Data_Kratos
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  characterNameEN: Kratos
+  characterNameES: Kratos
+  portrait: {fileID: 0}
+  sceneName: 
+  originEN: Kratos is a Spartan warrior who first appeared in the original God of
+    War (2005). Tricked by the god Ares into killing his own family, he is marked
+    by their ashes and becomes known as the "Ghost of Sparta." He later learns he
+    is the son of Zeus.
+  originES: "Kratos es un guerrero espartano que apareci\xF3 por primera vez en el
+    God of War original (2005). Enga\xF1ado por el dios Ares para matar a su propia
+    familia, queda marcado por sus cenizas y es conocido como el \"Fantasma de Esparta.\"
+    M\xE1s tarde descubre que es hijo de Zeus."
+  historyEN: After killing Ares and taking his place as God of War, Kratos turns
+    against the Olympian gods in a quest for vengeance. In the 2018 reboot, he lives
+    in the Norse realms with his son Atreus, trying to control his rage and become
+    a better father while they travel to scatter his wife's ashes.
+  historyES: "Tras matar a Ares y ocupar su lugar como Dios de la Guerra, Kratos
+    se enfrenta a los dioses del Olimpo en busca de venganza. En el reinicio de 2018
+    vive en los reinos n\xF3rdicos con su hijo Atreus, intentando controlar su ira
+    y ser un mejor padre mientras viajan para esparcir las cenizas de su esposa."
+  abilitiesEN: Superhuman strength and Spartan Rage, a state of fury that boosts
+    his attacks. He fights with the Blades of Chaos (chained blades wielded with
+    fire), and in the Norse saga with the Leviathan Axe, which he can throw and recall,
+    and the Guardian Shield.
+  abilitiesES: "Fuerza sobrehumana e Ira Espartana, un estado de furia que potencia
+    sus ataques. Combate con las Hojas del Caos (espadas encadenadas envueltas en
+    fuego) y, en la saga n\xF3rdica, con el Hacha Leviat\xE1n, que puede lanzar y
+    recuperar, y el Escudo Guardi\xE1n."
+  universeEN: "The franchise began in a world based on Greek mythology, with Olympus,
+    the Underworld, and its gods and titans. The 2018 saga moves Kratos to Norse
+    mythology, exploring the Nine Realms, Midgard, and the events leading to Ragnar\xF6k."
+  universeES: "La franquicia comenz\xF3 en un mundo basado en la mitolog\xEDa griega,
+    con el Olimpo, el Inframundo, sus dioses y titanes. La saga de 2018 traslada
+    a Kratos a la mitolog\xEDa n\xF3rdica, explorando los Nueve Reinos, Midgard y
+    los eventos que llevan al Ragnar\xF6k."
+  creatorsEN: Created by David Jaffe and developed by Santa Monica Studio, published
+    by Sony Interactive Entertainment for PlayStation. The 2018 reboot was directed
+    by Cory Barlog.
+  creatorsES: Creado por David Jaffe y desarrollado por Santa Monica Studio, publicado
+    por Sony Interactive Entertainment para PlayStation. El reinicio de 2018 fue
+    dirigido por Cory Barlog.
+  culturalImpactEN: Kratos is one of PlayStation's most recognizable icons. God of
+    War (2018) won Game of the Year at The Game Awards, and its portrayal of Kratos
+    evolving from a rage-driven anti-hero into a complex father was widely praised
+    for its storytelling and emotional depth.
+  culturalImpactES: "Kratos es uno de los \xEDconos m\xE1s reconocibles de PlayStation.
+    God of War (2018) gan\xF3 el premio a Juego del A\xF1o en The Game Awards, y
+    su retrato de Kratos, que evoluciona de un antih\xE9roe movido por la ira a un
+    padre complejo, fue elogiado por su narrativa y profundidad emocional."

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d4c58a8777a554f9643c64e852e28a, type: 3}
+  m_Name: Data_MasterChief
+  m_EditorClassIdentifier: Assembly-CSharp::CharacterData
+  characterNameEN: Master Chief
+  characterNameES: Jefe Maestro
+  portrait: {fileID: 0}
+  sceneName: 02_MasterChief
+  originEN: 'Master Chief, whose real name is John-117, is a SPARTAN-II super-soldier
+    of the United Nations Space Command (UNSC). Born on the colony world of Eridanus
+    II, he was taken as a child by the military to join a secret program that trained
+    and augmented young soldiers. He first appeared in Halo: Combat Evolved (2001).'
+  originES: "El Jefe Maestro, cuyo nombre real es John-117, es un supersoldado SPARTAN-II
+    del Comando Espacial de las Naciones Unidas (UNSC). Nacido en el mundo colonial
+    de Eridanus II, fue reclutado de ni\xF1o por el ej\xE9rcito para un programa
+    secreto que entrenaba y mejoraba a j\xF3venes soldados. Apareci\xF3 por primera
+    vez en Halo: Combat Evolved (2001)."
+  historyEN: During the war between humanity and the alien alliance known as the
+    Covenant, John-117 survives the fall of the planet Reach and discovers Halo,
+    an ancient ring-shaped weapon. Over the series he fights the Covenant, the parasitic
+    Flood and later enemies such as the Banished. His partnership with the AI Cortana
+    is the emotional core of his story.
+  historyES: "Durante la guerra entre la humanidad y la alianza alien\xEDgena conocida
+    como el Covenant, John-117 sobrevive a la ca\xEDda del planeta Reach y descubre
+    Halo, un arma antigua con forma de anillo. A lo largo de la saga combate al Covenant,
+    al par\xE1sito Flood y a enemigos posteriores como los Banished. Su alianza con
+    la IA Cortana es el n\xFAcleo emocional de su historia."
+  abilitiesEN: Enhanced strength, speed and reflexes thanks to his augmentations.
+    He wears MJOLNIR powered armor with a regenerating energy shield, and is an expert
+    in human and alien weapons and vehicles such as the Warthog. In Halo Infinite
+    he also uses a Grappleshot to reach distant places and pull objects toward him.
+  abilitiesES: "Fuerza, velocidad y reflejos mejorados gracias a sus modificaciones.
+    Viste la armadura potenciada MJOLNIR, con un escudo de energ\xEDa que se regenera,
+    y es experto en armas y veh\xEDculos humanos y alien\xEDgenas, como el Warthog.
+    En Halo Infinite tambi\xE9n usa el Grappleshot (gancho) para alcanzar lugares
+    lejanos y jalar objetos hacia \xE9l."
+  universeEN: Halo takes place in the 26th century, when humanity has spread across
+    the galaxy. The main conflict pits the UNSC against the Covenant, while the Forerunners,
+    an ancient civilization, left behind the Halo rings, superweapons on which the
+    fate of all life in the galaxy depends.
+  universeES: "Halo transcurre en el siglo XXVI, cuando la humanidad se ha expandido
+    por la galaxia. El conflicto principal enfrenta al UNSC contra el Covenant, mientras
+    que los Forerunners, una civilizaci\xF3n ancestral, dejaron los anillos Halo,
+    superarmas de las que depende el destino de toda la vida en la galaxia."
+  creatorsEN: Created by Bungie and first released by Microsoft on the original Xbox,
+    with Jason Jones and Marcus Lehto among its lead creators. Since Halo 4 (2012)
+    the franchise has been developed by 343 Industries, now called Halo Studios.
+    Master Chief's original voice is Steve Downes.
+  creatorsES: Creado por Bungie y lanzado por Microsoft en la Xbox original, con
+    Jason Jones y Marcus Lehto entre sus principales creadores. Desde Halo 4 (2012)
+    la franquicia la desarrolla 343 Industries, hoy llamada Halo Studios. Su voz
+    original es la de Steve Downes.
+  culturalImpactEN: 'Halo: Combat Evolved was a launch title for the Xbox and is
+    widely credited with helping the console succeed and shaping console first-person
+    shooters. Master Chief became the face of Xbox, and the franchise expanded into
+    novels, animation and a live-action TV series.'
+  culturalImpactES: "Halo: Combat Evolved fue un t\xEDtulo de lanzamiento de la Xbox
+    y se le atribuye gran parte del \xE9xito de la consola y la consolidaci\xF3n
+    de los shooters en primera persona en consola. El Jefe Maestro se convirti\xF3
+    en la cara de Xbox, y la franquicia se expandi\xF3 a novelas, animaci\xF3n y
+    una serie de televisi\xF3n de acci\xF3n real."
