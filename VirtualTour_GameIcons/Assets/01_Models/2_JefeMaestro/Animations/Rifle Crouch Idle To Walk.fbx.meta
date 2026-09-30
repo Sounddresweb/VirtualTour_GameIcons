@@ -1,44 +1,14 @@
 fileFormatVersion: 2
-guid: 23f5d62dad987c0499851e9baa3cd74a
+guid: a003514fb42d0f848ab01d10b39226d2
 ModelImporter:
   serializedVersion: 24300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_Skirt.001
-    second: {fileID: 2100000, guid: 96391a5930a9ebb4aa1b6343aa965279, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_maiFclh.001
-    second: {fileID: 2100000, guid: 875bda641cf65764cbe7936298f3400c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_maiFcll.001
-    second: {fileID: 2100000, guid: 7799c04c120ad844d9172ff33bb2411a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_maiFskinh.001
-    second: {fileID: 2100000, guid: 3a7e5dbf6c60b3b4dbee41468ab5b8aa, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_maiFskinh2.001
-    second: {fileID: 2100000, guid: 5ee70d24573b50548a2c5af5f8e09217, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: MAT_maiFskinl2.001
-    second: {fileID: 2100000, guid: cdd38d23d29b80a4caee4ecdef3fac5c, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
     searchTexturesGlobally: 0
   animations:
     legacyGenerateAnimations: 4
