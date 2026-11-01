@@ -78,20 +78,19 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "VirtualTour_Gamelcons";
-      var loaderUrl = buildUrl + "/VirtualTour_WebGL_Build.loader.js";
-      var config = {
-        arguments: [],
-        dataUrl: buildUrl + "/VirtualTour_WebGL_Build.data.unityweb",
-        frameworkUrl: buildUrl + "/VirtualTour_WebGL_Build.framework.js.unityweb",
-        codeUrl: buildUrl + "/VirtualTour_WebGL_Build.wasm.unityweb",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "Sounddresweb",
-        productName: "VirtualTour_GameIcons",
-        productVersion: "1.0.0",
-        showBanner: unityShowBanner,
-      };
-
+    var buildUrl = "VirtualTour_Gamelcons";
+var loaderUrl = buildUrl + "/AQUÍ_EL_NOMBRE_REAL.loader.js";
+var config = {
+  arguments: [],
+  dataUrl: buildUrl + "/AQUÍ_EL_NOMBRE_REAL.data.unityweb",
+  frameworkUrl: buildUrl + "/AQUÍ_EL_NOMBRE_REAL.framework.js.unityweb",
+  codeUrl: buildUrl + "/AQUÍ_EL_NOMBRE_REAL.wasm.unityweb",
+  streamingAssetsUrl: "StreamingAssets",
+  companyName: "Sounddresweb",
+  productName: "VirtualTour_GameIcons",
+  productVersion: "1.0.0",
+  showBanner: unityShowBanner,
+};
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         var meta = document.createElement('meta');
         meta.name = 'viewport';
