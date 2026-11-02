@@ -287,3 +287,49 @@ body::before {
 #proceed-btn:hover {
   opacity: 0.9;
 }
+
+
+/* ====================================================================
+   VISTA MÓVIL / PANTALLAS ESTRECHAS (se activa por tamaño, sin depender del navegador)
+   =================================================================== */
+@media (max-width: 900px), (max-aspect-ratio: 1/1) {
+  body {
+    height: 100vh;
+    height: 100dvh;
+    overflow: hidden;
+  }
+  #unity-container.unity-desktop,
+  #unity-container.unity-mobile {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    height: 100dvh;
+    max-width: none;
+    max-height: none;
+    transform: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  #unity-canvas {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  #unity-footer {
+    display: none;
+  }
+  #unity-loading-bar {
+    width: 86vw;
+    min-width: 0;
+    padding: 24px 18px;
+    box-sizing: border-box;
+  }
+  #unity-loading-bar::before {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  #unity-progress-bar-empty {
+    width: 100%;
+  }
+}

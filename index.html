@@ -2,6 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Recorrido Virtual 3D: Íconos de Videojuegos</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
@@ -25,9 +26,9 @@
       <div class="warning-card">
         <button id="close-warning-btn" onclick="closeMobileWarning()">✕</button>
         <div class="warning-icon">📱</div>
-        <h2>EXPERIENCIA RECOMENDADA PARA PC</h2>
-        <p>Este recorrido virtual 3D está optimizado para pantallas grandes. Estás ingresando desde un dispositivo móvil.</p>
-        <p class="sub-text">Puedes cerrar este aviso y continuar, aunque la experiencia interactiva puede variar según tu pantalla y controles táctiles.</p>
+        <h2>MEJOR EXPERIENCIA EN PC</h2>
+        <p>Este recorrido virtual 3D funciona mejor en pantallas grandes, pero también puedes verlo desde tu celular.</p>
+        <p class="sub-text">Arrastra con un dedo para rotar al personaje y pellizca con dos dedos para acercar o alejar.</p>
         <button id="proceed-btn" onclick="closeMobileWarning()">Entendido, continuar</button>
       </div>
     </div>
@@ -100,10 +101,8 @@
       };
 
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-        var meta = document.createElement('meta');
-        meta.name = 'viewport';
-        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
-        document.getElementsByTagName('head')[0].appendChild(meta);
+        // En móvil limitamos la resolución interna a 2x para cuidar el rendimiento sin perder nitidez del texto
+        config.devicePixelRatio = Math.min(window.devicePixelRatio || 1, 2);
         document.querySelector("#unity-container").className = "unity-mobile";
         canvas.className = "unity-mobile";
       }
