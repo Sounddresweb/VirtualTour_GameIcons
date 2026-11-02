@@ -6,7 +6,7 @@ body {
   padding: 0; 
   margin: 0; 
   /* Asegúrate de que el nombre coincida exactamente con el archivo real */
-  background: url('All-bg.jpg') no-repeat center center fixed;
+  background: url('TemplateData/All-bg.jpg') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #e2e8f0;
