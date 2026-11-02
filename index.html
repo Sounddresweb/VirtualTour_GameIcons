@@ -9,7 +9,7 @@
   </head>
   <body>
 
-    <!-- A-06: Banner informativo para dispositivos móviles con botón de cierre -->
+    <!-- A-06: Capa de advertencia para dispositivos móviles -->
     <div id="mobile-warning">
       <div class="warning-card">
         <button id="close-warning-btn" onclick="closeMobileWarning()">✕</button>
@@ -40,21 +40,17 @@
     <script>
       var canvas = document.querySelector("#unity-canvas");
 
-      // A-06: Detección y activación del banner informativo (sin bloquear)
       function isMobileOrTablet() {
         var userAgentCheck = /iPhone|iPad|iPod|Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
         var touchScreenCheck = (('ontouchstart' in window) || (navigator.maxTouchPoints > 0));
         var smallScreenCheck = window.innerWidth < 1024;
-
         return userAgentCheck || (touchScreenCheck && smallScreenCheck);
       }
 
-      // Mostrar el aviso si es móvil o tablet
       if (isMobileOrTablet()) {
         document.getElementById("mobile-warning").style.display = "flex";
       }
 
-      // Función para cerrar el aviso y permitir ver el juego
       function closeMobileWarning() {
         document.getElementById("mobile-warning").style.display = "none";
       }
@@ -78,19 +74,20 @@
         updateBannerVisibility();
       }
 
-    var buildUrl = "VirtualTour_Gamelcons";
-var loaderUrl = buildUrl + "/AQUÍ_EL_NOMBRE_REAL.loader.js";
-var config = {
-  arguments: [],
-  dataUrl: buildUrl + "/AQUÍ_EL_NOMBRE_REAL.data.unityweb",
-  frameworkUrl: buildUrl + "/AQUÍ_EL_NOMBRE_REAL.framework.js.unityweb",
-  codeUrl: buildUrl + "/AQUÍ_EL_NOMBRE_REAL.wasm.unityweb",
-  streamingAssetsUrl: "StreamingAssets",
-  companyName: "Sounddresweb",
-  productName: "VirtualTour_GameIcons",
-  productVersion: "1.0.0",
-  showBanner: unityShowBanner,
-};
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/VirtualTour_WebGL_Build.loader.js";
+      var config = {
+        arguments: [],
+        dataUrl: buildUrl + "/VirtualTour_WebGL_Build.data.unityweb",
+        frameworkUrl: buildUrl + "/VirtualTour_WebGL_Build.framework.js.unityweb",
+        codeUrl: buildUrl + "/VirtualTour_WebGL_Build.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Sounddresweb",
+        productName: "VirtualTour_GameIcons",
+        productVersion: "1.0.0",
+        showBanner: unityShowBanner,
+      };
+
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         var meta = document.createElement('meta');
         meta.name = 'viewport';
