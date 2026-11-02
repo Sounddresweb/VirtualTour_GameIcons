@@ -15,12 +15,15 @@ public class ControlsPanel : MonoBehaviour
     [Tooltip("Menú principal de Home (botones de personajes). Se oculta mientras el panel de controles está abierto. Opcional.")]
     [SerializeField] private GameObject mainMenu;
 
+    [Tooltip("Si está activo, el panel se abre solo la primera vez. Si no, solo se abre con el botón Controles.")]
+    [SerializeField] private bool showOnFirstLoad = false;
+
     private static bool alreadyShown;
 
     private void Start()
     {
-        if (alreadyShown) Hide();
-        else Show();
+        if (showOnFirstLoad && !alreadyShown) Show();
+        else Hide();
     }
 
     public void Show()
