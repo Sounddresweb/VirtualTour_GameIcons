@@ -1,11 +1,5 @@
 using UnityEngine;
 
-/// <summary>
-/// Guarda dos posiciones/tamaños para un elemento de UI: una para horizontal y otra para vertical.
-/// En Play elige la correcta según la orientación de la pantalla.
-/// Uso: acomoda el elemento con la Game view en vertical, clic derecho en el componente >
-/// "Guardar como VERTICAL". Luego cambia la Game view a horizontal, acomoda y "Guardar como HORIZONTAL".
-/// </summary>
 [RequireComponent(typeof(RectTransform))]
 public class ResponsiveRect : MonoBehaviour
 {
@@ -14,6 +8,7 @@ public class ResponsiveRect : MonoBehaviour
     {
         public bool saved;
         public Vector2 anchorMin, anchorMax, pivot, anchoredPosition, sizeDelta;
+        public Vector3 scale;   // si es (0,0,0) se trata como (1,1,1): compatible con lo ya guardado
     }
 
     public Layout landscape;
@@ -39,6 +34,7 @@ public class ResponsiveRect : MonoBehaviour
         rt.pivot = l.pivot;
         rt.anchoredPosition = l.anchoredPosition;
         rt.sizeDelta = l.sizeDelta;
+        rt.localScale = l.scale == Vector3.zero ? Vector3.one : l.scale;
     }
 
     private Layout Capture()
@@ -51,7 +47,8 @@ public class ResponsiveRect : MonoBehaviour
             anchorMax = r.anchorMax,
             pivot = r.pivot,
             anchoredPosition = r.anchoredPosition,
-            sizeDelta = r.sizeDelta
+            sizeDelta = r.sizeDelta,
+            scale = r.localScale
         };
     }
 

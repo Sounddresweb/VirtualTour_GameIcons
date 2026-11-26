@@ -153,11 +153,11 @@ RectTransform:
   - {fileID: 789605787}
   m_Father: {fileID: 857908470}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 703.4999, y: 213.99997}
-  m_SizeDelta: {x: 405, y: 119}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -40, y: -223.1}
+  m_SizeDelta: {x: 276.5326, y: 81.57672}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &3924674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,11 +335,11 @@ RectTransform:
   - {fileID: 1590321088}
   m_Father: {fileID: 857908470}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 711, y: 452}
-  m_SizeDelta: {x: 405, y: 119}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -40, y: -40}
+  m_SizeDelta: {x: 276.5326, y: 81.57672}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &446779802
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -767,8 +767,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: 33.644592}
-  m_SizeDelta: {x: 777.7607, y: -67.2892}
+  m_AnchoredPosition: {x: 0, y: 176.74872}
+  m_SizeDelta: {x: 563.674, y: -353.49698}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &525552914
 MonoBehaviour:
@@ -868,11 +868,11 @@ RectTransform:
   - {fileID: 1086874846}
   m_Father: {fileID: 857908470}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -53.849, y: 76}
-  m_SizeDelta: {x: 405, y: 119}
-  m_Pivot: {x: 1, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -40, y: -310.8}
+  m_SizeDelta: {x: 276.5326, y: 81.57672}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &577879736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1001,11 +1001,11 @@ RectTransform:
   - {fileID: 481841915}
   m_Father: {fileID: 857908470}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 710.9999, y: 332.99997}
-  m_SizeDelta: {x: 405, y: 119}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -40, y: -131.8}
+  m_SizeDelta: {x: 276.5326, y: 81.57672}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &754780758
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2017,7 +2017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LocalizedText
   spanish: "English\t"
-  english: "Espa\xF1ol"
+  english: Spanish
 --- !u!114 &1086874848
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2038,7 +2038,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Idioma
+  m_text: "Ingl\xE9s"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
